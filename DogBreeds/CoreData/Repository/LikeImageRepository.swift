@@ -33,6 +33,7 @@ class LikeImageRepository {
             }
         }
     }
+
     func removeLikedImage(imageURL: String, onSuccess: @escaping () -> Void) {
         let context = PersistentStorage.shared.persistentContainer.newBackgroundContext()
         
@@ -55,6 +56,7 @@ class LikeImageRepository {
             }
         }
     }
+
     func getLikedImages(onSuccess: @escaping ( _ likedImages: [LikedImageModel]) -> Void) {
         let context = PersistentStorage.shared.persistentContainer.viewContext
         context.perform {

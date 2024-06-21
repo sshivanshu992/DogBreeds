@@ -26,6 +26,7 @@ final class Utility: NSObject {
         }
         return nil
     }
+
     var keyWindow: UIWindow? {
         if let windowScene = UIApplication.shared.connectedScenes.first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
             return windowScene.windows.first(where: { $0.isKeyWindow })

@@ -15,19 +15,8 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="ypy-hA-86X">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                            </imageView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ypy-hA-86X" secondAttribute="trailing" id="8nz-Jj-QTW"/>
-                            <constraint firstItem="ypy-hA-86X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="N8Y-Ro-4vg"/>
-                            <constraint firstAttribute="bottom" secondItem="ypy-hA-86X" secondAttribute="bottom" id="hrD-qQ-Oty"/>
-                            <constraint firstItem="ypy-hA-86X" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ieT-PE-nbU"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -36,7 +25,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="launchScreen" width="307.33334350585938" height="463.33334350585938"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

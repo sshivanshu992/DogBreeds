@@ -19,6 +19,7 @@ final class AppFlow {
         self.sceneDelegate?.window?.rootViewController = navigationController
         self.sceneDelegate?.window?.makeKeyAndVisible()
     }
+
     @objc private func showFavorites() {
         let favouriteVC = FavouriteImagesViewController()
         if let navigationController = self.sceneDelegate?.window?.rootViewController as? UINavigationController {

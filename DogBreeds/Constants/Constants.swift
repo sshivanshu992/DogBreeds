@@ -13,6 +13,7 @@ struct Constants {
     static let kFilter = "Filter"
     static let kFilterBy = "Filter by Breed"
 }
+
 extension Constants {
     struct ScreenTitle {
         static let kDogBreeds = "Dog Breeds"
@@ -20,6 +21,7 @@ extension Constants {
         static let kFavouritePictures = "Favourite Pictures"
     }
 }
+
 /// For images only
 extension Constants {
     struct Image {

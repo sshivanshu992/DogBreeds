@@ -8,21 +8,23 @@
 import Foundation
 
 struct DogImageModel: Decodable {
-    let message: [URL]?
+    let urls: [URL]?
     let status: String?
+
     init(message: [URL]? = nil, status: String? = nil) {
-        self.message = message
+        self.urls = message
         self.status = status
     }
 }
 extension DogImageModel {
-    enum CodingKeys: CodingKey {
-        case message
+    enum CodingKeys: String, CodingKey {
+        case breedImagesUrl = "message"
         case status
     }
+
     init(from decoder: any Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        self.message = try container.decodeIfPresent([URL].self, forKey: .message)
+        self.urls = try container.decodeIfPresent([URL].self, forKey: .breedImagesUrl)
         self.status = try container.decodeIfPresent(String.self, forKey: .status)
     }
 }

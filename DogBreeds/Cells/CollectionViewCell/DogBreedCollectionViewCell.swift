@@ -41,6 +41,7 @@ class DogBreedCollectionViewCell: UICollectionViewCell {
         self.contentView.layer.shadowRadius = 20
         self.contentView.layer.shadowOffset.height = 2
     }
+
     @IBAction func likeButtonAction(_ sender: UIButton) {
         self.handler?(sender.tag)
     }

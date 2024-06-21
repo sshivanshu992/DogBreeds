@@ -5,8 +5,6 @@
 //  Created by Shivanshu Verma on 20/06/24.
 //
 
-// MARK: - this is an demo and basic code details.
-
 import Foundation
 
 
@@ -16,7 +14,11 @@ func createURL(endpoint: String) -> URL? {
     return URL(string: "\(baseURL)\(endpoint)")
 }
 
-/// Generic function to fetch data from a given endpoint
+/// Fetches data from the API and decodes it into the specified type.
+/// - Parameters:
+///   - endpoint: API endpoint
+///   - type: Type to decode the data into
+///   - completion: Handler for the result
 func fetchData<T: Decodable>(endpoint: String, type: T.Type, completion: @escaping (Result<T, Error>) -> Void) {
     guard let url = createURL(endpoint: endpoint) else {
         DispatchQueue.main.async {

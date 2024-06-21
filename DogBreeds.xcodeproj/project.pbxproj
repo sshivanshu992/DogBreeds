@@ -49,6 +49,7 @@
 		5698C4A92C2529DA00DF8815 /* DogImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5698C4A82C2529DA00DF8815 /* DogImageModel.swift */; };
 		5698C4AB2C252A2600DF8815 /* DogImageViewModeI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5698C4AA2C252A2600DF8815 /* DogImageViewModeI.swift */; };
 		5698C4AE2C252D4200DF8815 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5698C4AD2C252D4200DF8815 /* Constants.swift */; };
+		56CD7F492C2598DC009433CA /* FavouriteImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CD7F482C2598DC009433CA /* FavouriteImagesViewModel.swift */; };
 		758A4A369B36DDFA67560AA5 /* Pods_DogBreeds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C61DD75203C33DE8201F49 /* Pods_DogBreeds.framework */; };
 		CA1984C9536167298548BCF4 /* Pods_DogBreedsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70EBA791E049D0D4A91EF3E /* Pods_DogBreedsTests.framework */; };
 /* End PBXBuildFile section */
@@ -117,6 +118,7 @@
 		5698C4A82C2529DA00DF8815 /* DogImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageModel.swift; sourceTree = "<group>"; };
 		5698C4AA2C252A2600DF8815 /* DogImageViewModeI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageViewModeI.swift; sourceTree = "<group>"; };
 		5698C4AD2C252D4200DF8815 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		56CD7F482C2598DC009433CA /* FavouriteImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteImagesViewModel.swift; sourceTree = "<group>"; };
 		82FE486BAA33B88EFDE0305B /* Pods-DogBreeds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogBreeds.release.xcconfig"; path = "Target Support Files/Pods-DogBreeds/Pods-DogBreeds.release.xcconfig"; sourceTree = "<group>"; };
 		97C61DD75203C33DE8201F49 /* Pods_DogBreeds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogBreeds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70EBA791E049D0D4A91EF3E /* Pods_DogBreedsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogBreedsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -259,6 +261,7 @@
 			children = (
 				5687AFC52C247FAC00DFEBA4 /* BreedsViewModel.swift */,
 				5698C4AA2C252A2600DF8815 /* DogImageViewModeI.swift */,
+				56CD7F482C2598DC009433CA /* FavouriteImagesViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -677,6 +680,7 @@
 				5698C4862C24B3ED00DF8815 /* UIImageView+Addition.swift in Sources */,
 				5698C4A62C251D5200DF8815 /* FavouriteImagesViewController.swift in Sources */,
 				5687AFD62C247FC800DFEBA4 /* Network.swift in Sources */,
+				56CD7F492C2598DC009433CA /* FavouriteImagesViewModel.swift in Sources */,
 				5687AF922C247F8A00DFEBA4 /* AppDelegate.swift in Sources */,
 				5698C49D2C250EE100DF8815 /* LikedImageModel.swift in Sources */,
 				5687AFD02C247FBD00DFEBA4 /* AlertController.swift in Sources */,
@@ -879,6 +883,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -910,6 +915,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
