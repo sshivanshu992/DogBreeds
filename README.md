@@ -36,7 +36,7 @@ Dog Breeds App is a mobile application developed using Swift UIKit that serves a
 4. Open the `.xcworkspace` file in Xcode:
 
    ```bash
-    open DogBreedsApp.xcworkspace
+    open DogBreeds.xcworkspace
    ```
 
 5. Build and run the project in Xcode.
